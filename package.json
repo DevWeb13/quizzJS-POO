@@ -1,20 +1,19 @@
 {
-  "name": "starting_file",
+  "name": "quizzjs-poo",
   "version": "1.0.0",
-  "description": "Wesh alors :)",
-  "main": "js.js",
+  "description": "Création d'un Quizz en Js POO",
+  "main": "script.js",
   "scripts": {
-    "sass" : "sass --watch ./main.scss:./style.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-    
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KobeKenjo/basic_project_file.git"
+    "url": "git+https://github.com/DevWeb13/quizzJS-POO.git"
   },
-  "author": "",
+  "author": "DevWeb13",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KobeKenjo/basic_project_file/issues"
+    "url": "https://github.com/DevWeb13/quizzJS-POO/issues"
   },
-  "homepage": "https://github.com/KobeKenjo/basic_project_file#readme"
+  "homepage": "https://github.com/DevWeb13/quizzJS-POO#readme"
 }
