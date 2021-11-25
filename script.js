@@ -32,3 +32,26 @@ let questions = [
 		"Vraiment conne comme question:->"
 	),
 ];
+
+class Quiz {
+	constructor(questions) {
+		this.score = 0;
+		this.questions = questions;
+		this.currentQuestionIndex = 0;
+	}
+	// Permet d'afficher la question actuelle
+	getCurrentQuestions() {
+		return this.questions[this.currentQuestionIndex];
+	}
+	// Vérifie la réponse de l'utilisateur
+	guess(answer) {
+		if (this.getCurrentQuestions().isCorrectAnswer(answer)) {
+			this.score++;
+		}
+		// Passe à la question suivante
+		this.currentQuestionIndex++;
+	}
+	hasEnded() {
+		return this.currentQuestionIndex >= this.questions.length;
+	}
+}
